@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+ <Document>
+ <Style id="restaurantStyle">
+ <IconStyle id="restuarantIcon">
+ <Icon>
+ <href>http://maps.google.com/mapfiles/kml/pal2/icon63.png</href>
+ </Icon>
+ </IconStyle>
+ </Style>
+ <Style id="barStyle">
+ <IconStyle id="barIcon">
+ <Icon>
+ <href>http://maps.google.com/mapfiles/kml/pal2/icon27.png</href>
+ </Icon>
+ </IconStyle>
+ </Style>
+<Folder>
+<name>InfraDefault</name>
+ <Folder>
+<name>Logotipo</name>
+ <ScreenOverlay>
+
+
+   <!-- Origin (x=0/y=0) is in the lower left corner.
+
+        y goes up, x goes right.
+
+     -->
+
+<!-- Place the upper left corner (0/1) of the image... -->
+       <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+       <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+       <rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+       <size x="150" y="150" xunits="pixels" yunits="pixels"/>
+
+    <Icon><href>files/logo.png</href></Icon>
+ 
+ </ScreenOverlay>
+ </Folder>
+<Folder>
+<name>Arquivo de Cliente</name>
+</Folder>
+<Folder>
+<name>Fibras</name>
+<Folder>
+<name>Backbone</name>
+<Folder>
+<name>06FO</name>
+</Folder>
+<Folder>
+<name>EB</name>
+<Folder>
+<name>Rede 1 </name>
+</Folder>
+<Folder>
+<name>Rede 2 </name>
+</Folder>
+</Folder>
+</Folder>
+<Folder>
+<name>DERIVAÇÃO</name>
+<Folder>
+<name>Rede 1 </name>
+</Folder>
+<Folder>
+<name>Rede 2 </name>
+</Folder>
+</Folder>
+</Folder>
+<Folder>
+<name>Caixas</name>
+<Folder>
+<name>NAP</name>
+<Folder>
+<name>Rede 1 </name>
+</Folder>
+<Folder>
+<name>Rede 2 </name>
+</Folder>
+</Folder>
+<Folder>
+<name>HUB</name>
+<Folder>
+<name>Rede 1 </name>
+</Folder>
+<Folder>
+<name>Rede 2 </name>
+</Folder>
+</Folder>
+<Folder>
+<name>CEO</name>
+<Folder>
+<name>Rede 1 </name>
+</Folder>
+<Folder>
+<name>Rede 2 </name>
+</Folder>
+</Folder>
+ </Folder>
+ </Folder>
+ </Document>
+</kml>
